@@ -3,17 +3,14 @@ pipeline {
    stages {
        stage('Build Code') {
            steps {
-               echo "Building Artifact"
-               echo "testing"
+               sh "echo "Building Artifact"
            }
        }
       stage('Deploy Code') {
           steps {
                echo "Deploying Code"
+               echo "testing"
           }
       }
    }
 }
-
-  
-
