@@ -3,7 +3,7 @@ pipeline {
    stages {
        stage('Build Code') {
            steps {
-               echo "Building Artifact"
+             sh  "echo "Building Artifact"
            }
        }
       stage('Deploy Code') {
