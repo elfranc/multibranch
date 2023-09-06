@@ -14,7 +14,7 @@ pipeline {
       }
       stage ('3-testing code' ){
         steps{
-            sh 'lscpu'
+            sh 'lscpu2'
         }
       }
    }
