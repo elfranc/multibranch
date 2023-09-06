@@ -4,7 +4,7 @@ pipeline {
        stage('1-Build Code') {
            steps {
                echo "Building Artifact"
-               echo "testing"
+               echo "testingcode"
            }
        }
       stage('2-Deploy Code') {
